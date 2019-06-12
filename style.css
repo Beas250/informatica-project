@@ -1,3 +1,6 @@
 li {margin-left: 20}
 img{margin: auto }
-body{background-image: url(perkament.png)}
+div {
+    background-image:url(perkament.png)
+    background-repeat:space;
+}
