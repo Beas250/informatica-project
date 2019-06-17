@@ -1,4 +1,6 @@
+<--opmaak--> 
 li {margin-left: 20}
 img{margin: auto }
+<--achtergrond-->
 body{background-image: url(images/perkament.gif);
-background-repeat: space;}
+    background-repeat: space;}
