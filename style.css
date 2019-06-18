@@ -1,6 +1,7 @@
-<--opmaak--> 
+/*opmaak(lijkt niet te werken)*/
 li {margin-left: 20}
 img{margin: auto }
-<--achtergrond-->
+/*achtergrond(werkt niet)*/
 body{background-image: url(images/perkament.gif);
     background-repeat: space;}
+nav{background color:brown}
