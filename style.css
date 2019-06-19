@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
     background-image:#FFFFFF);
@@ -6,3 +7,12 @@ body {
 /*url(perkament.png*/
 li {margin-left: 20}
 img{margin: auto }
+=======
+/*opmaak(lijkt niet te werken)*/
+li {margin-left: 20}
+img{margin: auto }
+/*achtergrond(werkt niet)*/
+body{background-image: url(images/perkament.gif);
+    background-repeat: space;}
+nav{background color:brown}
+>>>>>>> 245277ef730c883d7965009a587ef79cd78d9b48
