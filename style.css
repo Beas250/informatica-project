@@ -1,6 +1,8 @@
-li {margin-left: 20}
-img{margin: auto }
-div {
-    background-image:url(perkament.png)
+
+body {
+    background-image:#FFFFFF);
     background-repeat:space;
 }
+/*url(perkament.png*/
+li {margin-left: 20}
+img{margin: auto }
