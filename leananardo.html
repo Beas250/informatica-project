@@ -9,14 +9,11 @@
   <meta name="author" content="">
 <!-- titel website -->
   <title>info Leonardo Da Vinci voor schoolreisjes</title>
-    <!-- link naar css file -->
-  <link href="style.css">
+  
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
+  <link href="style.css" rel="stylesheet">
 </head>
-<!-- achtergrond -->
-<body background="images/parchment.png">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
@@ -56,19 +53,43 @@
       <div class="col-lg-12 text-center">
           <!-- titel pagina -->
         <h1 class="mt-5">Leonardo Da Vinci</h1>
-          <!-- inhouds opgave met navigatie binnen pagina -->
-          <h2>Inhoud</h2>
-          <ul style="list-style-type: none">
-          <li><a href="#levensloop" class="text-body"><h4>levensloop</h4></a></li>
-          <li><a href="#jeugd" class="text-body">jeugd</a></li>
-          <li><a href="#loopbaan" class="text-body">loopbaan</a></li>
-          <li><a href="#leerlingen" class="text-body">leerlingen</a></li>    
-          <li><a href="#overlijden" class="text-body">overlijden</a></li>
-          <li><a href="#Werken" class="text-body"><h4>Werken</h4></a></li>    
-          <li><a href="#onderzoek" class="text-body">onderzoek</a></li>    
-          <li><a href="#machines en vliegtuigen" class="text-body">machines en vliegtuigen</a></li>
-          <li><a href="#brug over de Gouden Hoorn" class="text-body">brug over de Gouden Hoorn</a></li>    
-          </ul>
+          <!-- inhouds opgave met navigatie binnen pagina met dropdown(werkt soms bij klikken niet)-->
+         
+          
+          <noscript>your browser doesn't support javascript</noscript>
+          <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn"><h2>Inhoud</h2></button>
+              <div id="myDropdown" class="dropdown-content">
+          <a href="#levensloop" class="text-body"><h4>levensloop</h4></a>
+          <a href="#jeugd" class="text-body">jeugd</a>
+         <a href="#loopbaan" class="text-body">loopbaan</a>
+          <a href="#leerlingen" class="text-body">leerlingen</a> 
+          <a href="#overlijden" class="text-body">overlijden</a>
+          <a href="#Werken" class="text-body"><h4>Werken</h4></a>    
+          <a href="#onderzoek" class="text-body">onderzoek</a>    
+          <a href="#machines en vliegtuigen" class="text-body">machines en vliegtuigen</a>
+         <a href="#brug over de Gouden Hoorn" class="text-body">brug over de Gouden Hoorn</a>    
+                  </div>
+              </div>
+           <script>
+              function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+          </script>
           <!-- kopjes met tekst(lorem ipsum) -->
           <a name="levensloop"><h2 class="mt-5">Levensloop</h2></a>
         <p class="lead">Lorem ipsum doanatomielor sit amet, consectetur adipiscing elit. Aenean accumsan augue id lacus mattis, vitae iaculis tortor vestibulum. Pellentesque massa leo, consectetur in dapibus id, elementum a neque. Nulla cursus molestie erat at porta. Suspendisse mattis ante vehicula, bibendum turpis vel, tempor odio. Nulla vel tristique felis. Quisque at sagittis mauris. Phasellus at leo ipsum. Mauris malesuada odio tristique, placerat libero eu, consequat arcu. Suspendisse sit amet porta nibh. Phasellus fringilla facilisis felis nec placerat. Praesent suscipit aliquam est, nec volutpat lectus hendrerit sit amet. Aenean ultricies elit dignissim, laoreet ipsum iaculis, accumsan ligula. Suspendisse cursus sed orci non mattis. Donec feugiat velit ut purus placerat, vel consequat orci dictum. Aliquam eget vehicula est, ut sollicitudin tellus. Nam eget ullamcorper risus.
