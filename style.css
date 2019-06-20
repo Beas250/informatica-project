@@ -1,5 +1,5 @@
 /*achtergrond*/
-body   {background-image: url("images/parchment.png");}
+body {background-image: url("images/parchment.png");}
 
 /*dropdown*/
 /* Dropdown Button */
@@ -89,3 +89,10 @@ body   {background-image: url("images/parchment.png");}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
+
+
+body {
+    background-image:#FFFFFF);
+    background-repeat:space;
+}
+
